@@ -29,6 +29,14 @@ pip install unsloth
 Then run the `Llama3_1_(8B)_Alpaca.ipynb` in this repo.
 The code is based upon https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-Alpaca.ipynb.
 
+For the python notebook use the conda environment `full-environment.yml`.
+
+To save the conda environment, use
+```
+conda env export > full-environment.yml
+conda env export --from-history > minimal-environment.yml
+```
+
 # References
 
 1. https://github.com/unslothai/unsloth.

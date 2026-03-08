@@ -1,0 +1,7 @@
+name: /home/zeitgeist/Documents/github/finetune/.conda
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+prefix: /home/zeitgeist/Documents/github/finetune/.conda
