@@ -22,11 +22,13 @@ nvidia-smi       # Should show Driver Version and CUDA Version
 ```
 Note: The CUDA version from nvidia-smi (your driver's supported version) and the one from nvcc (the installed toolkit version) can differ. This is normal.
 
-Then  follow https://github.com/unslothai/unsloth.
-
-To install unsloth, run:
+Install unsloth:
 ```
 pip install unsloth
 ```
 Then run the `Llama3_1_(8B)_Alpaca.ipynb` in this repo.
 The code is based upon https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Llama3.1_(8B)-Alpaca.ipynb.
+
+# References
+
+1. https://github.com/unslothai/unsloth.
